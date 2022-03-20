@@ -46,6 +46,14 @@ h3{
     padding: 10px 0px;
     margin-top: -80px;
 }
+
+h4{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0;
+}
 .menu{
     background:rgba(0,0,0,.5);
     display: flex;
@@ -114,8 +122,8 @@ section{
     font-size: 13px;
     letter-spacing:1px;   
    }
-     .articulos article{        
-        flex: 1 1 40%;
+     .articulos article{
+        flex: 1 1 45%;
         color: #444;
         font-size: 13px;
         letter-spacing: 1px;
@@ -147,13 +155,13 @@ section{
   
   aside{
     flex: 1 1 auto;
-   }
-      aside article{
-         background: #B4CFB0;
-         flex: 1 1 40%;
-      }
+    margin: 10px 5px 10px 0; 
+    display: flex;
+      
+   } 
 
-      aside img{width: 200px;}
+   aside img{width: 100%;}
+
 footer{    
     display: flex;
     justify-content: center;
